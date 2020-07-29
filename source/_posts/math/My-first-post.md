@@ -1,7 +1,6 @@
 ---
 title: My first post
 date: 2020-07-29 21:03:58
-tags:
 ---
 ## Question:
 
