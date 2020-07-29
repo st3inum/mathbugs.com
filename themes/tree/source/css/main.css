@@ -394,7 +394,8 @@ table td {
 	font-size: 14px;
 	height: 50px;
 	/*background-color: #60281e;*/
-	background-color: #2b6964;
+	/*background-color: #2b6964;*/
+	background-color: #ffffffff;
 	
 	color: #b0ddce;
 	/*color: #dfb7b7;*/
