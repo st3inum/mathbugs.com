@@ -46,7 +46,7 @@ tags: discrete-math , math
 
 কেন লিখতে পারি?  নিজেরা প্রথমে প্রমাণ করার চেষ্টা কর । 
 
-- ##### prove 1 :
+- ##### proof 1 :
 
   $a\equiv b \text{ (mod m)}$ হলে আমি বলতে পারি $a-b=mp$
 
@@ -58,14 +58,20 @@ tags: discrete-math , math
   = $(a+k)-(b+k)=mp$
   তারমানে বলতে পারি , $a +k\equiv b+k \text{ (mod m)}$ 
 
-- ##### prove 2 :
+- ##### proof 2 :
 
   নিজে চেষ্টা কর। 
 
-- ##### prove 3 :
+- ##### proof 3 :
 
   নিজে চেষ্টা কর। 
 
   
 
-<!--will be continue-->
+<!--চলবে-->
+
+
+### Reference :
+
+- [Brilliant Wiki](https://brilliant.org/wiki/modular-arithmetic/) (আমি যখন ব্রিলিয়ান্ট উইকি খুললাম তখন অবাক হয়ে গেলাম এটা দেখে যে সংজ্ঞার অংশ দুই জায়গায় ই একই :v )
+- [মডুলো অপারেশন - উইকিপিডিয়া](https://en.wikipedia.org/wiki/Modulo_operation) 
