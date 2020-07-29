@@ -395,14 +395,17 @@ table td {
 	height: 50px;
 	/*background-color: #60281e;*/
 	/*background-color: #2b6964;*/
-	background-color: #ffffffff;
+	background-color: #ffffff;
 	
-	color: #b0ddce;
+	color: #2b6964;
+	/*color: #b0ddce;*/
 	/*color: #dfb7b7;*/
 	text-align: center;
 }
 #footer a {
-    color: #fff;
+    /*color: #fff;*/
+    color: #2b6964;
+    text-decoration: underline;
 }
 #footer p {
     padding: 5px;
