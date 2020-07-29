@@ -15,7 +15,7 @@ deploy:
   skip-cleanup: true
   github-token: $GH_TOKEN
   keep-history: true
-  fqdn: st3inum.github.io
+  fqdn: mathbugs.me
   on:
     branch: master
   local-dir: public
