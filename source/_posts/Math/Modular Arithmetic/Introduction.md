@@ -71,7 +71,7 @@ tags: discrete-math , math
 *...চলবে...*
 
 
-### Reference :
+## Reference :
 
 - [Brilliant Wiki](https://brilliant.org/wiki/modular-arithmetic/) (আমি যখন ব্রিলিয়ান্ট উইকি খুললাম তখন অবাক হয়ে গেলাম এটা দেখে যে সংজ্ঞার অংশ দুই জায়গায় ই একই :v )
 - [মডুলো অপারেশন - উইকিপিডিয়া](https://en.wikipedia.org/wiki/Modulo_operation) 
