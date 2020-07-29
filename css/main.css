@@ -393,8 +393,11 @@ table td {
 #footer{
 	font-size: 14px;
 	height: 50px;
-	background-color: #60281e;
-	color: #dfb7b7;
+	/*background-color: #60281e;*/
+	background-color: #2b6964;
+	
+	color: #b0ddce;
+	/*color: #dfb7b7;*/
 	text-align: center;
 }
 #footer a {
