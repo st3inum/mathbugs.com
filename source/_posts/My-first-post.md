@@ -41,3 +41,4 @@ $\therefore A=-\frac{\pi}{2}$ and $B=\pi$ or $B = -\pi$
 
 Hence,  $$\color{Red}{\boxed{(A,B)=\{(\frac{\pi}{2},0),(-\frac{\pi}{2},\pi),(-\frac{\pi}{2},-\pi)\}}}$$
 
+Thanks everybody
