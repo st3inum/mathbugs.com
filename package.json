@@ -22,6 +22,7 @@
     "hexo-renderer-marked": "^3.0.0",
     "hexo-renderer-stylus": "^1.1.0",
     "hexo-server": "^1.0.0",
+    "hexo-sliding-spoiler": "^1.2.1",
     "markdown-it": "^11.0.0"
   }
 }

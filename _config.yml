@@ -104,6 +104,8 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: tree
+plugins:
+ - hexo-sliding-spoiler
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
