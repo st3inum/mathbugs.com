@@ -114,27 +114,63 @@ tags: discrete-math , math
 
 - $16017020$ কে $4$ দিয়ে ভাগ করলে ভাগশেষ কত থাকবে ? 
   **সোর্সঃ BDMO regional 2018**
+
 - পরপর চারটি সংখ্যার যোগফলকে $4$ দিয়ে ভাগ করলে ভাগশেষ কত হবে ? 
   **সোর্সঃ BDMO regional 2016**
+
 - দুইটি সংখ্যার যোগফল $12$ দিয়ে বিভাজ্য । সংখ্যা দুইটির বিয়োগফলকে $2$ দিয়ে ভাগ করলে ভাগশেষ কত থাকে?
   **সোর্সঃ BDMO regional 2018**
+
 - 11+12+13+14.....+2019= S
   What will be the remainder when dived by 100?
+
 - $s=2016-2015+2014-2013+...+4-3+2-1$
   $s$ কে $4$ দিয়ে ভাগ করলে ভাগশেষ কত হবে ? 
   **সোর্সঃ BDMO regional 2018**
+
 - $s=2^{2}+4^{2}+8^{2}+...+512^{2}+1024^{2}$
   $s$ এর শেষ অংক কত? 
   **সোর্সঃ BDMO regional 2016**
+
 - একটি গোল টেভিলে $10$ টি চেয়ারে দশজন লোক বসে আছে । চেয়ারগুলো ঘড়ির কাটার ঘুর্ননের দিকে $0,1,2,...,9$ সংখ্যা দিয়ে ক্রমানুসারে চিহ্নিত করা । $0$ চিহ্নিত চেয়ারে থাকা লোকটির কাছে একটি বল আছে এবং বলটিকে এখন ঘড়ির কাটার ঘূর্ননের দিকে একজনের কাছে থেকে অপরজনের কাছে পাঠানো হবে । প্রথম ধাপে বলটি $1^{1}$ সংখ্যক চেয়ার ঘুরে $1$ চিহ্নিত চেয়ারে যায় । দ্বিতীয় ধাপে সেখান থেকে আরও $2^{2}$ সংখ্যক চেয়ার ঘুরে $5$ চিহ্নিত চেয়ারে যায় । তৃতীয় ধাপে বলটি সেখান থেকে আরও $3^{3}$ সংখ্যক চেয়ার ঘুরে $2$ চিহ্নিত চেয়ারে যায় । এভাবে $2020$ তম ধাপে বলটি কত নাম্বার চেয়ারে থাকবে ? 
   **সোর্সঃ BDMO regional 2017**
+
 - $c=2^{1}+2^{2}+2^{3}+2^{4}+...+2^{2017}+2^{2018}$
   $c$ কে $3$ দিয়ে ভাগ করলে ভাগশেষ কত থাকবে ? 
   **সোর্সঃ BDMO regional 2018** 
+
 - A = 1234...............100 (Using all number from 1 to 100 conjecutively) What will be the remainder if A is divide by 9?
   **সোর্সঃ KUET math club , mothly challenge - 1**
+  {% spoiler "solution" %}
+  **Bonus question: ** If we concatenate n number ($a_1,a_2,a_3,...a_n$). And thus get number `M` then prove that $M\equiv \sum_{i=1}^{n}{a_i}\text{ (mod 9)}$  
+
+  **proof** : 
+
+  if the length of the $i_{th}$ number is $p_{i}$ then we can write,
+
+  $M=\sum_{i=1}^{n}{a_{i}\times 10^{\sum_{j=i+1}^{n}{p_{j}}}}$
+
+  in short we can write , $M=\sum_{i=1}^{n}{10^{x_i}a_i}$ 
+
+  where, $x_i = \sum_{j=i+1}^{n}{p_{j}}$
+
+  as $10^x\equiv 1 \text{ (mod 9)}$
+
+  hence , $10^x a\equiv a \text{ (mod 9)}$
+
+  $\therefore M\equiv\sum_{i=1}^{n}{10^{x_i}a_i}\equiv\sum_{i=1}^{n}{a_i} \text{ (mod 9)}$ 
+
+  
+
+  Now in this problem we can say that $A\equiv\sum_{i=1}^{100}{i} \text{ (mod 9)}$
+
+  $\Longrightarrow A\equiv 100 \text{ (mod 9)}$ [as $\sum_{i=1}^{99}{i} \equiv 0 \text{ (mod 9)}$]
+
+  $\Longrightarrow A\equiv \textcolor{red}{\boxed{1}} \text{ (mod 9)}$
+
 - $122333444455555666666...10000000001000000000...1000000000$ কে $3$ দিয়ে ভাগ করলে ভাগশেষ কত থাকবে? 
   **সোর্সঃ BDMO regional 2015**
+
 - ...
 
 
