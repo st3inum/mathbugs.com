@@ -78,20 +78,20 @@ tags: discrete-math , math
 <details>
   <summary>stuff with *mark* **down** in `summary` doesn't work any more, use HTML <i>italics</i> and <b>bold</b> instead in <code>&lt;summary&gt;</code> (<i>click to expand</i>)</summary>
 </div>
-<div>`<span style="color:red">this text is red</span>`</div>
 
-```
+
+
 # A collapsible section with markdown
 <details>
   <summary>Click to expand!</summary>
-  
+
   ## Heading
   1. A numbered
   2. list
      * With some
      * Sub bullets
 </details>
-```
+
 
 *...চলবে...*
 
