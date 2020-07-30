@@ -39,29 +39,26 @@ tags: discrete-math , math
 যেমন আমাদের রাশিটি যদি হয় $a\equiv b \text{ (mod m)}$ তাহলে কোন পূর্নসংখ্যা $k$ এর জন্য আমরা লিখতে পারি 
 
 - $a +k\equiv b+k \text{ (mod m)}$ 
-	<div>
-        <details>
-          <summary>proof</summary>
+		<details>
+			<summary>proof</summary>
 
 			$a\equiv b \text{ (mod m)}$ হলে আমি বলতে পারি $a-b=mp$
-	
-  	      যেখানে `p` হল $(a-b)$ কে `m` দিয়ে ভাগ করলে যেই ভাগফল থাকবে সেইটা ( ২য় সংজ্ঞা দিয়ে চিন্তা কর) 
-	
-  	      এখন , 
-	
-  	      $a-b=mp$
-  	      = $(a+k)-(b+k)=mp$
-  	      তারমানে বলতে পারি , $a +k\equiv b+k \text{ (mod m)}$ 
-	
-  	  </details>
-    </div>
+		
+			যেখানে `p` হল $(a-b)$ কে `m` দিয়ে ভাগ করলে যেই ভাগফল থাকবে সেইটা ( ২য় সংজ্ঞা দিয়ে চিন্তা কর) 
+		
+			এখন , 
+		
+			$a-b=mp$
+			= $(a+k)-(b+k)=mp$
+			তারমানে বলতে পারি , $a +k\equiv b+k \text{ (mod m)}$ 
+		</details>
 
 - $a-k\equiv b-k \text{ (mod m)}$
 		<div>
             <details>
               <summary>proof</summary>
 
-                নিজে চেষ্টা কর। 
+				নিজে চেষ্টা কর। 
             </details>
         </div>
 
@@ -70,7 +67,7 @@ tags: discrete-math , math
             <details>
               <summary>proof</summary>
 
-                নিজে চেষ্টা কর। 
+				নিজে চেষ্টা কর। 
             </details>
         </div>
 
