@@ -142,7 +142,9 @@ tags: discrete-math , math
 - A = 1234...............100 (Using all number from 1 to 100 conjecutively) What will be the remainder if A is divide by 9?
   **সোর্সঃ KUET math club , mothly challenge - 1**
   {% spoiler "solution" %}
-  **Bonus question: ** If we concatenate n number ($a_1,a_2,a_3,...a_n$). And thus get number `M` then prove that $M\equiv \sum_{i=1}^{n}{a_i}\text{ (mod 9)}$  
+
+  .
+  **Bonus question**:  If we concatenate n number ($a_1,a_2,a_3,...a_n$). And thus get number `M` then prove that $M\equiv \sum_{i=1}^{n}{a_i}\text{ (mod 9)}$  
 
   **proof** : 
 
@@ -168,6 +170,7 @@ tags: discrete-math , math
 
   $\Longrightarrow A\equiv \textcolor{red}{\boxed{1}} \text{ (mod 9)}$
 
+  {% endspoiler %}
 - $122333444455555666666...10000000001000000000...1000000000$ কে $3$ দিয়ে ভাগ করলে ভাগশেষ কত থাকবে? 
   **সোর্সঃ BDMO regional 2015**
 
