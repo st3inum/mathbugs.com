@@ -66,12 +66,37 @@ tags: discrete-math , math
 
   নিজে চেষ্টা কর। 
 
+আরও কিছু বৈশিষ্ট্য ... 
+
+- $a \equiv b \text{ (mod m)}$ এবং $p \equiv q \text{ (mod m)}$ হলে $a+p \equiv b+q \text{ (mod m)}$
+- $a \equiv b \text{ (mod m)}$ এবং $p \equiv q \text{ (mod m)}$ হলে $a-p \equiv b-q \text{ (mod m)}$
+- $a \equiv b \text{ (mod m)}$ এবং $p \equiv q \text{ (mod m)}$ হলে $a\times p \equiv b\times q \text{ (mod m)}$
+
+
+
+<div>
+<details>
+  <summary>stuff with *mark* **down** in `summary` doesn't work any more, use HTML <i>italics</i> and <b>bold</b> instead in <code>&lt;summary&gt;</code> (<i>click to expand</i>)</summary>
+</div>
+<div>`<span style="color:red">this text is red</span>`</div>
+
+```
+# A collapsible section with markdown
+<details>
+  <summary>Click to expand!</summary>
   
+  ## Heading
+  1. A numbered
+  2. list
+     * With some
+     * Sub bullets
+</details>
+```
 
 *...চলবে...*
 
 
-## Reference :
+## Reference:
 
 - [Brilliant Wiki](https://brilliant.org/wiki/modular-arithmetic/) (আমি যখন ব্রিলিয়ান্ট উইকি খুললাম তখন অবাক হয়ে গেলাম এটা দেখে যে সংজ্ঞার অংশ দুই জায়গায় ই একই :v )
 - [মডুলো অপারেশন - উইকিপিডিয়া](https://en.wikipedia.org/wiki/Modulo_operation) 
