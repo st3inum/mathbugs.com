@@ -39,32 +39,40 @@ tags: discrete-math , math
 যেমন আমাদের রাশিটি যদি হয় $a\equiv b \text{ (mod m)}$ তাহলে কোন পূর্নসংখ্যা $k$ এর জন্য আমরা লিখতে পারি 
 
 - $a +k\equiv b+k \text{ (mod m)}$ 
+	<div>
+        <details>
+          <summary>proof</summary>
+
+			$a\equiv b \text{ (mod m)}$ হলে আমি বলতে পারি $a-b=mp$
+	
+  	      যেখানে `p` হল $(a-b)$ কে `m` দিয়ে ভাগ করলে যেই ভাগফল থাকবে সেইটা ( ২য় সংজ্ঞা দিয়ে চিন্তা কর) 
+	
+  	      এখন , 
+	
+  	      $a-b=mp$
+  	      = $(a+k)-(b+k)=mp$
+  	      তারমানে বলতে পারি , $a +k\equiv b+k \text{ (mod m)}$ 
+	
+  	  </details>
+    </div>
 
 - $a-k\equiv b-k \text{ (mod m)}$
+		<div>
+            <details>
+              <summary>proof</summary>
+
+                নিজে চেষ্টা কর। 
+            </details>
+        </div>
 
 - $a\times k\equiv b\times k \text{ (mod m)}$
+		<div>
+            <details>
+              <summary>proof</summary>
 
-কেন লিখতে পারি?  নিজেরা প্রথমে প্রমাণ করার চেষ্টা কর । 
-
-- ##### proof 1 :
-
-  $a\equiv b \text{ (mod m)}$ হলে আমি বলতে পারি $a-b=mp$
-
-  যেখানে `p` হল $(a-b)$ কে `m` দিয়ে ভাগ করলে যেই ভাগফল থাকবে সেইটা ( ২য় সংজ্ঞা দিয়ে চিন্তা কর) 
-
-  এখন , 
-
-  $a-b=mp$
-  = $(a+k)-(b+k)=mp$
-  তারমানে বলতে পারি , $a +k\equiv b+k \text{ (mod m)}$ 
-
-- ##### proof 2 :
-
-  নিজে চেষ্টা কর। 
-
-- ##### proof 3 :
-
-  নিজে চেষ্টা কর। 
+                নিজে চেষ্টা কর। 
+            </details>
+        </div>
 
 আরও কিছু বৈশিষ্ট্য ... 
 
@@ -73,21 +81,6 @@ tags: discrete-math , math
 - $a \equiv b \text{ (mod m)}$ এবং $p \equiv q \text{ (mod m)}$ হলে $a\times p \equiv b\times q \text{ (mod m)}$
 
 
-
-
-# A collapsible section with markdown
-<div>
-<details>
-  <summary>Click to expand!</summary>
-
-  ## Heading
-  1. A numbered
-  2. list
-     * With some
-     * Sub bullets
-
-</details>
-</div>
 
 *...চলবে...*
 
