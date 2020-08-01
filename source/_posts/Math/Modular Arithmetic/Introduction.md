@@ -276,6 +276,7 @@ tags: discrete-math , math
   {% spoiler "code" %}
   .
   {% vimhl cpp true %}
+  #include <stdio.h>
   int main() {
     long long p, q;
     int m;
@@ -287,8 +288,6 @@ tags: discrete-math , math
   }
   {% endvimhl %}
   {% endspoiler %}
-- **Russian Multiplication System** :
-- **Big Integer Modulo** : 
 
  *...চলবে...*
 
