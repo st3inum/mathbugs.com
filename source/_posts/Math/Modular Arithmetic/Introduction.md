@@ -240,9 +240,55 @@ tags: discrete-math , math
   আগের সমস্যার সমাধান দেখে নিজে চেষ্টা করো । 
 
   {% endspoiler %}
-- ...
 
+অনেক হয়ে গেলো শুধুমাত্র ম্যাথ নিয়ে সমস্যা । এখন কিছু প্রোগ্রামিং নিয়েও সমস্যা দেখা যাক । 
 
+- আমাদের $3$ টা পূর্নসংখ্যা দেওয়া আছে $p,q,m$ যেখানে $0\le p,q \le 10^9$ এবং $1\le m \le 10^9$ । আমাদেরকে $pq \text{ (mod m)}$ এর মান প্রিন্ট করতে হবে । 
+  {% spoiler "hint" %}
+
+  .
+  
+  $p,q$ যেহেতু $10^9$ পর্যন্ত হতে পারে , তাই এদের গুণফল $10^{18}$ পর্যন্ত হয়ে যেতে পারে । তাই এই ভ্যারিয়েবল গুলো `long long` টাইপের নিতে তবে ( অথবা `long long` এ টাইপকাস্ট করে নিতে হবে )
+  {% endspoiler %}
+  {% spoiler "code" %}
+
+  .
+  
+  {% vimhl cpp true %}
+  #include <stdio.h>
+  int main() {
+    long long p, q;
+    int m;
+    scanf("%lld %lld %d", &p, &q, &m);
+    printf("%lld\n", (p * q) % m);
+    return 0;
+  }
+  {% endvimhl %}
+  {% endspoiler %}
+- এখন আগের প্রবলেমেই রেঞ্জটা একটু চেঞ্জ করে দিলে কেমন হয়? $0\le p,q \le 10^{18}$ এবং $1\le m \le 10^9$
+  {% spoiler "hint" %}
+
+  .
+  
+  $p,q$ যেহেতু $10^{18}$ পর্যন্ত হতে পারে , তাই এটি আগের পদ্ধতিতে সল্ভ করা যাবে না , কাড়ন  এদের গুণফল $10^{36}$ পর্যন্ত হয়ে যেতে পারে এবং এই রেঞ্জের কোন ভ্যারিয়েবল c++ এ নাই।
+  যদি $p\equiv a \text{ (mod m)}$ এবং $q\equiv b \text{ (mod m)}$ হয় , তাহলে আমরা বলতে পারি $pq\equiv ab \text{ (mod m)} \Longrightarrow pq\equiv \{(p\text{ (mod m)})\times(q\text{ (mod m)})\} \text{ (mod m)}$
+  {% endspoiler %}
+  {% spoiler "code" %}
+  .
+  {% vimhl cpp true %}
+  int main() {
+    long long p, q;
+    int m;
+    scanf("%lld %lld %d", &p, &q, &m);
+    p%=m;
+    q%=m;
+    printf("%lld\n", (p * q) % m);
+    return 0;
+  }
+  {% endvimhl %}
+  {% endspoiler %}
+- **Russian Multiplication System** :
+- **Big Integer Modulo** : 
 
  *...চলবে...*
 

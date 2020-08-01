@@ -1,0 +1,13 @@
+<font face="monospace"><span id="L1"><font color="#5f5faf">&#xA0;1&#xA0;</font></span><font color="#ff87d7">template</font>&#xA0;&lt;<font color="#87d7ff"><i>unsigned</i></font>&#xA0;K,&#xA0;<font color="#ff87d7">class</font>&#xA0;RET,&#xA0;<font color="#ff87d7">class</font>&#xA0;F,&#xA0;<font color="#ff87d7">class</font>&#xA0;Tup&gt;
+<span id="L2"><font color="#5f5faf">&#xA0;2&#xA0;</font></span><font color="#ff87d7">struct</font>&#xA0;Expander {
+<span id="L3"><font color="#5f5faf">&#xA0;3&#xA0;</font></span>&#xA0;&#xA0;<font color="#ff87d7">template</font>&#xA0;&lt;<font color="#ff87d7">class</font>... Ts&gt;
+<span id="L4"><font color="#5f5faf">&#xA0;4&#xA0;</font></span>&#xA0;&#xA0;<font color="#ff87d7">static</font>&#xA0;RET&#xA0;<font color="#5fff87">expand</font>(F&amp;&amp; func, Tup&amp;&amp; t, Ts &amp;&amp; ... args) {
+<span id="L5"><font color="#5f5faf">&#xA0;5&#xA0;</font></span>&#xA0;&#xA0;&#xA0;&#xA0;<font color="#ff87d7">return</font>&#xA0;Expander&lt;K -&#xA0;<font color="#af87ff">1</font>, RET, F, Tup&gt;::<font color="#5fff87">expand&#xA0;</font>(
+<span id="L6"><font color="#5f5faf">&#xA0;6&#xA0;</font></span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;<font color="#5fff87">forward</font>&lt;F&gt;(func),
+<span id="L7"><font color="#5f5faf">&#xA0;7&#xA0;</font></span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;<font color="#5fff87">forward</font>&lt;Tup&gt;(t),
+<span id="L8"><font color="#5f5faf">&#xA0;8&#xA0;</font></span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;<font color="#5fff87">get</font>&lt;K -&#xA0;<font color="#af87ff">1</font>&gt;(<font color="#5fff87">forward</font>&lt;Tup&gt;(t)),
+<span id="L9"><font color="#5f5faf">&#xA0;9&#xA0;</font></span>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;<font color="#5fff87">forward</font>&lt;Ts&gt;(args)...
+<span id="L10"><font color="#5f5faf">10&#xA0;</font></span>&#xA0;&#xA0;&#xA0;&#xA0;);}
+<span id="L11"><font color="#5f5faf">11&#xA0;</font></span>};
+<span id="L12"><font color="#5f5faf">12&#xA0;</font></span>&#xA0;&#xA0;
+</font>
