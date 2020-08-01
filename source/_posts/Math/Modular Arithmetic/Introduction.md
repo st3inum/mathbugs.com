@@ -106,6 +106,17 @@ tags: discrete-math , math
 
   {% endspoiler %}
 
+- $4$ **দিয়ে নিঃশেষে বিভাজ্য হওয়ার নিয়মঃ**
+
+  কোন সংখ্যার শেষ দুই অংক নিয়ে গঠিত সংখ্যা যদি $4$ দিয়ে ভাগ যায়, তাহলে সংখ্যাটিও $4$ দিয়ে ভাগ যাবে । 
+  {% spoiler "proof" %}
+  .
+  মনে করি সংখ্যাটি  $n=d_{0}+10d_{1}+100d_{2}+...+10^{k-1}d_{k-1}$ 
+  $\Longrightarrow n\equiv d_{0}+10d_{1}+100d_{2}+...+10^{k-1}d_{k-1}\text{ (mod 4)}$
+  $\Longrightarrow \boxed{n\equiv d_{0}+10d_{1}\text{ (mod 4)}}$
+
+  {% endspoiler %}
+
 - ... 
 
 
