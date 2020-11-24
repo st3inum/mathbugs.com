@@ -1,0 +1,19 @@
+<header>
+  <div class="outer">
+    <div class="inner">
+      <!-- <button id="sidebar-toggle" class="toggle" ><i class="fa fa-arrow-right " aria-hidden="true"></i></button> -->
+    </div>
+    <div class="inner">
+      <h1 class="logo-wrap">
+        <a><%= config.title %><b><sup><%- theme.header.version %></sup></b></a>
+      </h1>
+    </div>
+    <div class="inner">
+      <nav class="main-nav">
+        <% for (var key in theme.menus){ %>
+          <a href="<%- url_for(theme.menus[key]) %>">| <%= key %> |</a>
+        <% } %>
+      </nav>
+    </div>
+  </div>
+</header>

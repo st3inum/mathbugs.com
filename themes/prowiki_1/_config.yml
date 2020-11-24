@@ -1,0 +1,45 @@
+header:
+  favicon: /img/mathbugs.png # 支持使用url
+  version: '1.1'
+footer:
+  copyright: 河东小伍
+  beian: 冀ICP备00000000号
+
+# 文章作者列表，文章中未设置时默认选择第一项
+authors: 
+  anonymous: /img/default.png
+  fahim: /img/fahim.png
+
+# menues
+menus: 
+  Home: /
+  Archives: /archives
+  Categories: /categories
+  # Tags: /tags
+  # Friends: /friends
+  About: /about
+
+page_show: 5
+
+# 代码高亮样式
+# a11y-dark, a11y-light, agate, androidstudio, an-old-hope, arduino-light, arta, ascetic,
+# atelier-cave-dark, atelier-dune-dark, atelier-estuary-dark, atelier-forest-dark, atelier-heath-dark,
+# atelier-lakeside-dark, atelier-plateau-dark, atelier-savanna-dark, atelier-seaside-dark, atelier-sulphurpool-dark,
+# atom-one-dark, atom-one-dark-reasonable, brown-paper, codepen-embed, color-brewer, darcula, dark,
+# default, docco, dracula, far, foundation, github, github-gist, gml, googlecode, gradient-dark,
+# grayscale, gruvbox-dark, hopscotch, hybrid, idea, ir-black, isbl-editor-dark, kimbie.dark, lightfair,
+# lioshi, magula, mono-blue, monokai, monokai-sublime, night-owl, nnfx-dark, nord, obsidian, ocean,
+# paraiso-dark, pojoaque, purebasic, qtcreator_dark, railscasts, rainbow, routeros, school-book, shades-of-purple,
+# solarized-dark, srcery, sunburst, tomorrow-night, tomorrow-night-blue, tomorrow-night-bright,
+# tomorrow-night-eighties, vs, vs2015, xcode, xt256, zenburn
+hlcss: monokai
+
+toc:
+  list_number: false # 文章目录是否显示编号
+
+# 文章底部版权声明信息
+copyright:
+  enable: false
+  content: # permalink会被替换为root/_config.yml中配置的url域名的当前页面连接
+    - '版权声明：本文为「河东小伍」的原创文章，博客内容遵循 署名-非商业性使用-相同方式共享 协议。'
+    - '本文永久链接是：permalink'
