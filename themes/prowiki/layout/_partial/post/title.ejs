@@ -17,7 +17,7 @@
         <% } %>
         <% var headimg = theme.authors[author]; %>
         <div class="meta meta_auth">
-            <img src="<%- url_for(headimg) %>" alt="" />
+            <img src="<%- url_for(headimg) %>" alt="错误" />
             <p><%= author %></p>
         </div>
     
@@ -35,7 +35,7 @@
         
         <div class="meta meta_date">
             <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
-            <p>Date：<%- date(post.date, "YYYY-MM-DD") %></p>
+            <p>Date ：<%- date(post.date, "YYYY-MM-DD") %></p>
         </div>
     
         <div class="meta meta_update">

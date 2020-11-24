@@ -3,7 +3,9 @@
     <section id="toc-div" <% if (page.encrypt) { %>style="display: none;" <% } %>>
         <%- toc(plain_content, {list_number: theme.toc.list_number}) %>
     </section>
-    <section id="gohome" style="display: none;"><a>↑</a></section>
+    <section id="gohome" style="display: none;">
+        <a>⬆</a>
+    </section>
 <% } %>
     <script>
         function get_top_by_link(link){
