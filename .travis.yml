@@ -16,6 +16,6 @@ deploy:
   github-token: $GH_TOKEN
   keep-history: true
   fqdn: mathbugs.me
+  local-dir: public
   on:
     branch: master
-  local-dir: public
