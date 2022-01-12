@@ -24,6 +24,6 @@
     "hexo-server": "^1.0.0",
     "hexo-sliding-spoiler": "^1.2.1",
     "hexo-tag-vimhighlight": "^0.3.2",
-    "markdown-it": "^11.0.0"
+    "markdown-it": "^12.3.2"
   }
 }
